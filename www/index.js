@@ -34,6 +34,7 @@ const drawGrid = () => {
 }
 
 const renderLoop = () => {
+  debugger;
   universe.tick()
 
   drawGrid()
